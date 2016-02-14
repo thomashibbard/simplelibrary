@@ -10,12 +10,14 @@ body{
 #modal{
   display: none;
   background: lightgray;
-  padding: 0 5px;
+  padding: 0 4px;
   font-family: 'helvetica', sans-serif;
+  height: auto;
+  border: 1px solid #9B9B9B;
 }
 .modal-close-container{
   margin: 5px auto; 
-  padding: 5px 0;
+  padding: 4px 0 7px;
   background-color: #BCBCBC;
   border: 1px solid #9B9B9B;
   transition: all 0.3s;
@@ -33,7 +35,8 @@ body{
   float: right;
   margin-right: 3px; 
   border: 1px solid transparent;
-  transition: all 0.15s
+  line-height: 1.21;
+  transition: all 0.15s;
 }
 .modal-close-button:hover{
   background: #A1A1A1;

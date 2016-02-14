@@ -19,4 +19,4 @@ I made this simple library so I could have a super light weight implementation o
 
 	 _('#modal').modal();
 
-The title is done through the `data-modal-title` attribute. Annnd `data-modal-type` doesn't do anything yet.
+The title is done through the `data-modal-title` attribute. And `data-modal-type` doesn't do anything yet.
